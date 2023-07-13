@@ -1,0 +1,8 @@
+D:\Raven\Practice Exercise\C#\Arrays\bin\Debug\Arrays.exe.config
+D:\Raven\Practice Exercise\C#\Arrays\bin\Debug\Arrays.exe
+D:\Raven\Practice Exercise\C#\Arrays\bin\Debug\Arrays.pdb
+D:\Raven\Practice Exercise\C#\Arrays\obj\Debug\Arrays.csproj.AssemblyReference.cache
+D:\Raven\Practice Exercise\C#\Arrays\obj\Debug\Arrays.csproj.SuggestedBindingRedirects.cache
+D:\Raven\Practice Exercise\C#\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+D:\Raven\Practice Exercise\C#\Arrays\obj\Debug\Arrays.exe
+D:\Raven\Practice Exercise\C#\Arrays\obj\Debug\Arrays.pdb

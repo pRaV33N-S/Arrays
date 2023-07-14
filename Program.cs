@@ -10,7 +10,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-
+            /*
             int [,] marks= new int[4, 5];
             for(int i = 0; i < 4; i++)
             {
@@ -37,9 +37,40 @@ namespace Arrays
                 }
                 Console.Write(total);
                 Console.WriteLine("");
+            }*/
+              
+
+                int[][] employee = new int[5][];
+                employee[0] = new int[5];
+                for (int i = 0; i < 5; i++)
+                {
+                    Console.WriteLine("Enter the num of columns");
+                    int temp = int.Parse(Console.ReadLine());
+                    employee[i] = new int[temp];
+                }
+
+                for (int i = 0; i < 5; i++)
+                {
+                    for (int j = 0; j < employee[i].Length; j++)
+                    {
+                        Console.WriteLine($"Enter the Salary for Day{j + 1}");
+                        employee[i][j] = int.Parse(Console.ReadLine());
+                    }
+                }
+                for (int i = 0; i < 5; i++)
+                {
+                    int total = 0;
+                    for (int j = 0; j < employee[i].Length; j++)
+                    {
+                        Console.Write(employee[i][j] + "\t");
+                        total = total + employee[i][j];
+                    }
+                    Console.Write(total);
+                    Console.WriteLine();
+                }
             }
-            
-         
         }
+
     }
+}
 }
